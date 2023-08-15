@@ -1,6 +1,6 @@
 export const TIMER = {
   name: 'Timer 1',
-  cycles: [
+  series: [
     {
       time: 25,
       break: 5
@@ -20,5 +20,5 @@ export const TIMER = {
   ],
   longBreak: 15,
   autoRestart: true,
-  quantity: 4 // 4 cycles
+  cycles: 4
 }
